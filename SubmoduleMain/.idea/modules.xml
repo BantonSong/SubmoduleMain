@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../../SubmoduleChild1/SubmoduleChild1/SubmoduleChild1.iml" filepath="$PROJECT_DIR$/../../SubmoduleChild1/SubmoduleChild1/SubmoduleChild1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../SubmoduleChild1/SubmoduleChild1/app/SubmoduleChild1-app.iml" filepath="$PROJECT_DIR$/../../SubmoduleChild1/SubmoduleChild1/app/SubmoduleChild1-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../SubmoduleChild2/SubmoduleChild2.iml" filepath="$PROJECT_DIR$/../../SubmoduleChild2/SubmoduleChild2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../SubmoduleChild2/app/SubmoduleChild2-app.iml" filepath="$PROJECT_DIR$/../../SubmoduleChild2/app/SubmoduleChild2-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SubmoduleMain.iml" filepath="$PROJECT_DIR$/SubmoduleMain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/SubmoduleMain-app.iml" filepath="$PROJECT_DIR$/app/SubmoduleMain-app.iml" />
+    </modules>
+  </component>
+</project>
