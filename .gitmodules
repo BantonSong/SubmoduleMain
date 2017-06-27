@@ -1,0 +1,3 @@
+[submodule "SubmoduleMain/SubmoduleChild4"]
+	path = SubmoduleMain/SubmoduleChild4
+	url = https://github.com/BantonSong/SubmoduleChild4.git

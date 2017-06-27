@@ -33,4 +33,5 @@ dependencies {
     testCompile 'junit:junit:4.12'
     compile project(':SubmoduleChild2:app')
     compile project(':Submodulechild3')
+    compile project(':SubmoduleChild4:app')
 }

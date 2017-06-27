@@ -5,9 +5,9 @@ include ':SubmoduleChild2'
 project(':SubmoduleChild2').projectDir = new File('E:\\workspace\\studio\\ExerciseSpace\\SubmoduleChild2')
 // 引入工程中的Module
 include ':SubmoduleChild2:app'
-//// 引入工程
-//include ':SubmoduleChild1'
-//// 工程位置
-//project(':SubmoduleChild1').projectDir = new File('E:\\workspace\\studio\\ExerciseSpace\\SubmoduleChild1\\SubmoduleChild1')
-//// 引入工程中的Module
-//include ':SubmoduleChild1:app'
+// 引入工程
+include ':SubmoduleChild4'
+// 工程位置
+project(':SubmoduleChild4').projectDir = new File('SubmoduleChild4')
+// 引入工程中的Module
+include ':SubmoduleChild4:app'
