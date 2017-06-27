@@ -1,13 +1,13 @@
-include ':app'
-// 引入项目
+include ':app', ':Submodulechild3'
+// 引入工程
 include ':SubmoduleChild2'
-// 最关键代码
-project (':SubmoduleChild2').projectDir = new File('E:\\workspace\\studio\\ExerciseSpace\\SubmoduleChild2')
-// 公共库
+// 工程位置
+project(':SubmoduleChild2').projectDir = new File('E:\\workspace\\studio\\ExerciseSpace\\SubmoduleChild2')
+// 引入工程中的Module
 include ':SubmoduleChild2:app'
-// 引入项目
-include ':SubmoduleChild1'
-// 最关键代码
-project (':SubmoduleChild1').projectDir = new File('E:\\workspace\\studio\\ExerciseSpace\\SubmoduleChild1\\SubmoduleChild1')
-// 公共库
-include ':SubmoduleChild1:app'
+//// 引入工程
+//include ':SubmoduleChild1'
+//// 工程位置
+//project(':SubmoduleChild1').projectDir = new File('E:\\workspace\\studio\\ExerciseSpace\\SubmoduleChild1\\SubmoduleChild1')
+//// 引入工程中的Module
+//include ':SubmoduleChild1:app'

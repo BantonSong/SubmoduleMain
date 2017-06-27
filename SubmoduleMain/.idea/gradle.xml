@@ -7,11 +7,10 @@
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="modules">
           <set>
-            <option value="$PROJECT_DIR$/../../SubmoduleChild1/SubmoduleChild1" />
-            <option value="$PROJECT_DIR$/../../SubmoduleChild1/SubmoduleChild1/app" />
             <option value="$PROJECT_DIR$/../../SubmoduleChild2" />
             <option value="$PROJECT_DIR$/../../SubmoduleChild2/app" />
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/Submodulechild3" />
             <option value="$PROJECT_DIR$/app" />
           </set>
         </option>
